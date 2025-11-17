@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+
+<body>
+
+    <h1>University Admission Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" required maxlength="50"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date" name="dob" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other<br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label>SSC GPA:</label><br>
+            <input type="text" name="ssc" required maxlength="5"><br><br>
+
+            <label>HSC GPA:</label><br>
+            <input type="text" name="hsc" required maxlength="5"><br><br>
+
+            <label>Preferred Department:</label><br>
+            <select name="department" required>
+                <option value="">-- Select --</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="BBA">BBA</option>
+                <option value="English">English</option>
+            </select><br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" name="interest" value="Coding"> Coding
+            <input type="checkbox" name="interest" value="Sports"> Sports
+            <input type="checkbox" name="interest" value="Music"> Music<br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Documents</legend>
+
+            <label>Upload Photo:</label><br>
+            <input type="file" name="photo" required><br><br>
+
+            <label>Upload Transcript:</label><br>
+            <input type="file" name="transcript" required><br><br>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+
+</html>
