@@ -1,0 +1,33 @@
+#about {
+    background-color: #f0e68c;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#education {
+    background-color: #add8e6;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#hobbies {
+    background-color: #90ee90;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: #555;
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+}
